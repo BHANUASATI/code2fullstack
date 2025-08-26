@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(123, 255, 0, 0.788);
+    padding: 20px;
+    text-align: center;
+   
+}
+.navbar a{
+    
+    
+    margin: 20px;
+    font-size: 30px;
+    color: black;
+     text-decoration: none;
+
+}
+.navbar a:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(82, 77, 31);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.secnav{
+    background-color: rgb(61, 145, 58);
+    padding: 20px;
+}
+.secnav:hover{
+    color: rgb(0, 255, 191);
+   background-color: black;
+    
+}
+.secnav p{
+     font-family: "Playwrite AU NSW", cursive;
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+.about{
+    padding: 20px;
+    background-color: rgb(48, 194, 72);
+    width: 50%;
+    /* height: 50%; */
+    
+}
+.about p{
+    margin-left: 50px;
+    
+}
